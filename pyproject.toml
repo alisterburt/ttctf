@@ -44,6 +44,7 @@ dependencies = [
     "einops",
     "torch-cubic-spline-grids",
     "torch-grid-utils",
+    "typer"
 ]
 
 # https://peps.python.org/pep-0621/#dependencies-optional-dependencies

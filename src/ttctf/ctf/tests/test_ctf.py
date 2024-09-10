@@ -1,8 +1,8 @@
 import torch
 
-from libtilt.ctf.ctf_1d import calculate_ctf as calculate_ctf_1d
-from libtilt.ctf.relativistic_wavelength import \
-    calculate_relativistic_electron_wavelength
+from ttctf.ctf import  calculate_ctf_1d
+from ttctf.ctf.relativistic_wavelength import calculate_relativistic_electron_wavelength
+
 
 
 def test_1d_ctf_single():
